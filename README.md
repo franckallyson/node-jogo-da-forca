@@ -7,6 +7,9 @@
 5. [Creditos](#credits)
 6. [Licença](#licenca)
 
+
+<hr>
+
 <div id="descricao">
 <h2>1. Descrição </h2>
 <p>&nbsp&nbsp&nbsp&nbsp Olá! Este é um Mini Jogo da Forca desenvolvido por mim, <a href="https://www.linkedin.com/in/franck-allyson-da-silva-rocha-7b9866229/">Franck Allyson da Silva Rocha</a>  ! <br>
@@ -16,13 +19,60 @@
     <dd> Este Jogo visa entreter o usuário através de uma espécie de advinhação, ele sorteia uma palavra dentro de um conjunto de arrays <br>
     e o usuário deverá adivinhar qual a palavra sem esgotar as suas tentativas. Em cada tentativa é mostrado como está o andamento do jogo: <br>
     Acertos < - > Erros < - > Tentativas Restantes < - > Lacunas a serem preenchidas < - > Boneco sumindo com base nas tentativas restantes</dd>
-    
-  <dt><h3>1.2 Tecnologias Utilizadas</h3></dt>
-    <dd> https://img.shields.io/github/pipenv/locked/dependency-version/franckallyson/node-jogo-da-forca/dev/node</dd>
-    <dd> PHP Intermediário</dd>
-    <dd> PHP Avançado</dd>
-</dl>
-</body>
 
+  <dt><h3>1.2. Tecnologias Utilizadas</h3></dt>
+    <dd> Utilizei o <img src="https://img.shields.io/badge/node-v18.14.0-blue"> para o executar o ambiente de execução no terminal.</dd>
+    <dd> Utilizei o <img src="https://img.shields.io/badge/readline--sync-1.4.10-red" para receber um input do usuário no terminal.></dd>
+
+  <dt><h3>1.3. Desafios Encontrados</h3></dt>
+    <dd>Para a execução deste execício não tive dificuldades na lógica de programação. <br>O principal desafio era aprender a usar o ambiente de execução node e ele 
+    demonstrou ser bastante simples. <br>Faltou malícia para entender como receber dados do usuário, pois acabei esquecendo de instalar o package e sempre dava erro.<br> </dd>
+</dl>
 </div>
+
 <hr>
+
+<div id="insandexec">
+<h2>2. Instalação e Execução </h2>
+<p>&nbsp&nbsp&nbsp&nbsp Você terá que instalar o ambiente de execução node para executar este jogo, os demais packages utilizados já estão importados para este &nbsp&nbsp&nbsp&nbsp projeto e você não precisará fazer uma instalação.</p>
+<dl>
+  <dt><h3>2.1. O que instalar?</h3></dt>
+    <dd>Instale o Node.Js na sua máquina: <a href="https://nodejs.org/pt-br/">Clique Aqui!</a></dd>
+    <dd>Após dar um Fork e um Clone do projeto na sua máquina, não é necessário instalar mais nada!</dd>
+
+  <dt><h3>2.2. Como executar?</h3></dt>
+    <dd>Muito Simples! Já deixamos tudo pronto para você iniciar a execução do Game! Não se preocupe em instalar nenhum outro package além do Node.</dd>
+    <dd>Para iniciar, basta abrir o diretório clonado no terminal de comando e digitar o código logo abaixo.</dd>
+</dl>
+</div>
+
+~~~
+npm start
+~~~
+
+<hr>
+
+<div id="regras">
+<h2>3. Regras do Jogo</h2>
+<p>&nbsp&nbsp&nbsp&nbsp A ideia do jogo é representar a realidade, então as regras se assemelham ás regras do jogo da realidade. </p>
+<dl>
+  <dt><h3>3.1. Você possui 5 vidas.</h3></dt>
+  <dt><h3>3.2. A cada chance você pode escolher 1 letra.</h3></dt>
+  <dt><h3>3.3. Se a letra for correta a palavra é preenchida, caso contrário, você perderá uma vida.</h3></dt>
+  <dt><h3>3.4. Se a palavra inteira for preenchida, você vence.</h3></dt>
+  <dt><h3>3.5. Se suas vidas acabarem, você perde.</h3></dt>
+  <dt><h3>3.6. VocÊ não pode digitar a mesma letra 2 vezes.</h3></dt>
+</dl>
+</div>
+
+<hr>
+
+<div id="jogar">
+<h2>4. Como jogar</h2>
+<p>&nbsp&nbsp&nbsp&nbsp Este jogo é muito intuitivo, após dar o comando para executar mencionado anteriormente ( <code>npm start</code> ), basta observar a dica, escolher a &nbsp&nbsp&nbsp&nbsp letra e pressionar enter. </p>
+<dl>
+  <dt><h3>4.1. Visualize o HUD.</h3></dt>
+</dl>
+</div>
+
+
