@@ -103,7 +103,7 @@ npm start
     <dd>ISC</dd>
   
   <dt><h3>6.2. Licença do GitHub</h3></dt>
-    <dd>GNU</dd>
+    <dd><a href="https://github.com/franckallyson/node-jogo-da-forca/blob/main/LICENSE">GPL - 3.0</a></dd>
 </dl>
 </div>
 
